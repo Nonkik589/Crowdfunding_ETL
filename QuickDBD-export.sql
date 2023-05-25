@@ -1,4 +1,4 @@
-﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
+-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 -- Modify this code to update the DB schema diagram.
@@ -12,7 +12,7 @@ CREATE TABLE "campaign" (
     "description" VARCHAR   NOT NULL,
     "goal" float   NOT NULL,
     "pledged" float   NOT NULL,
-    "outcome" boolean   NOT NULL,
+    "outcome" VARCHAR   NOT NULL,
     "backers_count" int   NOT NULL,
     "country" VARCHAR   NOT NULL,
     "currenct" VARCHAR   NOT NULL,
